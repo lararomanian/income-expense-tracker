@@ -1,0 +1,13 @@
+[package]
+name = "income-expenses-tracker"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "your_library_name"
+path = "src/lib.rs"
+
+[dependencies]
+mysql = "*"
+dotenv = "0.15.0"
+diesel = { version = "1.4.4", features = ["mysql"] }
